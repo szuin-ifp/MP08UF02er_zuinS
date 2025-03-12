@@ -1,0 +1,470 @@
+/* `XHTML, HTML4, HTML5 Reset
+----------------------------------------------------------------------------------------------------*/
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+main,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+/*
+  Override the default (display: inline) for
+  browsers that do not recognize HTML5 tags.
+
+  IE8 (and lower) requires a shiv:
+  http://ejohn.org/blog/html5-shiv
+*/
+  display: block;
+}
+
+b,
+strong {
+/*
+  Makes browsers agree.
+  IE + Opera = font-weight: bold.
+  Gecko + WebKit = font-weight: bolder.
+*/
+  font-weight: bold;
+}
+
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+/*
+  For IE.
+  http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+*/
+  -ms-interpolation-mode: bicubic;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+/*
+  For IE6 + IE7:
+
+  "display: list-item" keeps bullets from
+  disappearing if hasLayout is triggered.
+*/
+  display: list-item;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+sub,
+sup,
+small {
+  font-size: 75%;
+}
+
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+svg {
+/*
+  For IE9. Without, occasionally draws shapes
+  outside the boundaries of <svg> rectangle.
+*/
+  overflow: hidden;
+}
+
+
+.cap{
+    height: 589px;
+    width: ;
+    background-color: ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+    background-image: url(../img/fons.jpg);
+}
+
+.cos{
+    height: 780px;
+    width: ;
+    background-color: ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/fons.jpg);
+}
+
+.peu{
+    height: 220px;
+    width: ;
+    background-color: transparent;
+    background-image: url(../img/fons.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 2rem;
+    padding-top: 2rem;
+  }
+  
+  .gray-text {
+    color: gray;
+  }
+  
+
+.logo{
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-image: url(../img/logo_carsandfilms.png);
+}
+
+.coches{
+    height: 450px;
+    width: 800px;
+    background-color: ;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    background-image: url(../img/ani/pulp.png);
+    background-size: cover;
+    animation: cambiarFondo 150s infinite;
+}
+
+.cuadrados{
+    width: 940px;
+    height: 780px;
+    background-color: ;
+    margin: 0 auto;
+}
+
+.cuadrado1{
+    height: 240px;
+    width: 292px;
+    background-color: chartreuse;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    position: relative;
+    background-image: url(../img/small/small_pulp.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    transition: transform 0.3s linear opacity 0.3s linear;
+}
+
+.cuadrado2{
+    height: 240px;
+    width: 292px;
+    background-color: chartreuse;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    position: relative;
+    background-image: url(../img/small/small_taxi.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    transition: transform 0.3s linear opacity 0.3s linear;
+}
+
+.cuadrado3{
+    height: 240px;
+    width: 292px;
+    background-color: chartreuse;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    position: relative;
+    background-image: url(../img/small/small_bond.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    transition: transform 0.3s linear opacity 0.3s linear;
+}
+
+.cuadrado4{
+    height: 240px;
+    width: 292px;
+    background-color: chartreuse;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    position: relative;
+    background-image: url(../img/small/small_ghost.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    transition: transform 0.3s linear opacity 0.3s linear;
+}
+
+.cuadrado5{
+    height: 240px;
+    width: 292px;
+    background-color: chartreuse;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    position: relative;
+    background-image: url(../img/small/small_bean.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    transition: transform 0.3s linear opacity 0.3s linear;
+}
+
+.cuadrado6{
+    height: 240px;
+    width: 292px;
+    background-color: chartreuse;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    position: relative;
+    background-image: url(../img/small/small_back.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    transition: transform 0.3s linear opacity 0.3s linear;
+}
+
+.cuadrado7{
+    height: 240px;
+    width: 292px;
+    background-color: chartreuse;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    position: relative;
+    background-image: url(../img/small/small_rider.jpg);
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.cuadrado8{
+    height: 240px;
+    width: 292px;
+    background-color: chartreuse;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    position: relative;
+    background-image: url(../img/small/small_team.jpg);
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.cuadrado9{
+    height: 240px;
+    width: 292px;
+    background-color: chartreuse;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    position: relative;
+    background-image: url(../img/small/small_break.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    transition: transform 0.3s linear opacity 0.3s linear;
+}
+
+.info{
+    width: 292px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: gray;
+}
+
+@keyframes cambiarFondo {
+    0%{ background-image: url(../img/ani/back.png);}
+    10%{ background-image: url(../img/ani/bean.png);}
+    20%{ background-image: url(../img/ani/bond.png);}
+    30%{ background-image: url(../img/ani/break.png);}
+    40%{ background-image: url(../img/ani/ghost.png);}
+    50%{ background-image: url(../img/ani/pulp.png);}
+    60%{ background-image: url(../img/ani/rider.png);}
+    70%{ background-image: url(../img/ani/taxi.png);}
+    80%{ background-image: url(../img/ani/team.png);}
+}
+
+.cuadrado1:hover {
+    animation: girar 0.3s linear; 
+    opacity: 100%;
+}
+
+.cuadrado2:hover {
+    animation: girar 0.3s linear; 
+    opacity: 100%;
+}
+
+.cuadrado3:hover {
+    animation: girar 0.3s linear; 
+    opacity: 100%;
+}
+
+.cuadrado4:hover {
+    animation: girar 0.3s linear; 
+    opacity: 100%;
+}
+
+.cuadrado5:hover {
+    animation: girar 0.3s linear; 
+    opacity: 100%;
+}
+
+.cuadrado6:hover {
+    animation: girar 0.3s linear; 
+    opacity: 100%;
+}
+
+.cuadrado7:hover {
+    animation: girar 0.3s linear; 
+    opacity: 100%;
+}
+
+.cuadrado8:hover {
+    animation: girar 0.3s linear; 
+    opacity: 100%;
+}
+
+.cuadrado9:hover {
+    animation: girar 0.3s linear; 
+    opacity: 100%;
+}
+
+
+@keyframes girar {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
